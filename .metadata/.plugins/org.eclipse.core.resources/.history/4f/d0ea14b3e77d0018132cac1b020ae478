@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class BasicJavaTest {
+
+	public static void EvenOdd(String s) {
+		String[] Arr = s.split("");
+		String ans = "";
+		String ans2 = "";
+		for (int i=0;i<Arr.length;i++) {
+			if(i%2 != 0) {
+				ans = ans + Arr[i];
+			}
+			else {
+				ans2 = ans2+ Arr[i];
+			}
+		}
+		System.out.println(ans2 + " " + ans);
+	}
+	public static void BinaryChange(int n) {
+		double base = 2;
+		double power = 0;
+		while(true) {
+			if (n/(Math.pow(base, power)) >= 1) {
+				power++;
+			}
+			else {
+				break;
+			}
+		}
+		
+		System.out.println(power);
+	}
+	public static void main(String[] args) {
+//		Scanner in= new Scanner(System.in);
+//        int n = in.nextInt();
+//		String one = "Hacker";
+//		String two = "Rank";
+//	
+//		EvenOdd(one);
+//		EvenOdd(two);
+		BinaryChange(6);
+	}
+
+}

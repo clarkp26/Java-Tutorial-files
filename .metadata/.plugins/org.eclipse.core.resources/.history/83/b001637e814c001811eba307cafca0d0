@@ -1,0 +1,42 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Vector;
+
+public class ListQ {
+//	ArrayList<Integer> L = new ArrayList<>(400);
+//	
+//	public void insert(int index,int value) {
+//		L.add(y,x);
+//	}
+
+	public static void main(String[] args) {
+//		System.out.println("Define List Size");
+//		Scanner in = new Scanner(System.in);
+//		int size = in.nextInt();
+//		ArrayList<Integer> L = new ArrayList<>(size);
+//		System.out.println("Input Array elements");
+//		for(int i=0;i<size;i++) {
+//			L.add(in.nextInt());
+//			
+//		}
+//		System.out.println(L);
+//		System.out.println("Add Elements");
+//		L.add(in.nextInt(),in.nextInt());
+//		System.out.println(L);
+//		System.out.println("Delete Elements");
+//		L.remove(in.nextInt());
+//		System.out.println(L);
+		
+		Vector<String> v = new Vector<String>(500);
+		v.add("Hello");
+		v.add("Well");
+		v.add("Yeeeooo");
+		System.out.println(v);
+		v.add(0,"New String");
+		System.out.println(v);
+
+		
+	}
+
+}

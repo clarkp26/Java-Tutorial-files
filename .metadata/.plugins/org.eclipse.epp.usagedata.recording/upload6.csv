@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.pde.launching,3.6.0.v20110506,"org.eclipse.pde.launching",1506599620019
+started,bundle,org.eclipse.pde.ui,3.6.100.v20120103_r372,"org.eclipse.pde.ui",1506599620066
+started,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1506599620066
+started,bundle,org.eclipse.team.cvs.ui,3.3.401.v20120126-1227,"org.eclipse.team.cvs.ui",1506599620144
+started,bundle,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.ui.views.log",1506599620144
+started,bundle,org.eclipse.update.core,3.2.500.v20110330,"org.eclipse.update.core",1506599620206
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1506599620206
+os,sysinfo,,,"win32",1506599620206
+arch,sysinfo,,,"x86_64",1506599620206
+ws,sysinfo,,,"win32",1506599620206
+locale,sysinfo,,,"en_IE",1506599620206
+processors,sysinfo,,,"4",1506599620206
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1506599620206
+java.runtime.version,sysinfo,,,"1.8.0_65-b17",1506599620206
+java.specification.name,sysinfo,,,"Java Platform API Specification",1506599620206
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1506599620206
+java.specification.version,sysinfo,,,"1.8",1506599620206
+java.vendor,sysinfo,,,"Oracle Corporation",1506599620206
+java.version,sysinfo,,,"1.8.0_65",1506599620206
+java.vm.info,sysinfo,,,"mixed mode",1506599620206
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1506599620206
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1506599620206
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1506599620206
+java.vm.specification.version,sysinfo,,,"1.8",1506599620206
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1506599620206
+java.vm.version,sysinfo,,,"25.65-b01",1506599620206
+started,bundle,org.eclipse.userstorage.ui,1.0.2.v20170526-1605,"org.eclipse.userstorage.ui",1506599620363
+started,bundle,org.eclipse.userstorage,1.1.0.v20170328-0205,"org.eclipse.userstorage",1506599620363
+started,bundle,org.eclipse.emf.edit,2.12.0.v20170609-0928,"org.eclipse.emf.edit",1506599620753
+started,bundle,org.eclipse.oomph.preferences,1.8.0.v20170318-0419,"org.eclipse.oomph.preferences",1506599620941
+started,bundle,org.eclipse.equinox.p2.artifact.repository,1.1.600.v20170906-1259,"org.eclipse.equinox.p2.artifact.repository",1506599621175
+started,bundle,org.eclipse.equinox.p2.transport.ecf,1.1.300.v20161004-0244,"org.eclipse.equinox.p2.transport.ecf",1506599621175
+started,bundle,org.eclipse.mylyn.commons.notifications.ui,1.15.0.v20170411-1844,"org.eclipse.mylyn.commons.notifications.ui",1506599621222
+started,bundle,org.eclipse.equinox.p2.ui,2.5.1.v20170906-1259,"org.eclipse.equinox.p2.ui",1506599621347
+started,bundle,org.eclipse.mylyn.team.ui,3.23.0.v20170411-2108,"org.eclipse.mylyn.team.ui",1506599626472
+started,bundle,org.eclipse.mylyn.builds.ui,1.15.0.v20170411-2141,"org.eclipse.mylyn.builds.ui",1506599626503
+started,bundle,org.eclipse.buildship.stsmigration,2.1.2.v20170807-1324,"org.eclipse.buildship.stsmigration",1506599626566
+started,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1506599626644
+started,bundle,org.eclipse.oomph.predicates.edit,1.8.0.v20170318-0419,"org.eclipse.oomph.predicates.edit",1506599626738
+started,bundle,org.eclipse.oomph.resources,1.8.0.v20170318-0419,"org.eclipse.oomph.resources",1506599626800
+started,bundle,org.eclipse.oomph.workingsets,1.8.0.v20170318-0419,"org.eclipse.oomph.workingsets",1506599626816
+started,bundle,org.eclipse.oomph.predicates,1.8.0.v20170327-1117,"org.eclipse.oomph.predicates",1506599626832
+started,bundle,org.eclipse.oomph.workingsets.editor,1.8.0.v20170327-1117,"org.eclipse.oomph.workingsets.editor",1506599626847
+started,bundle,org.eclipse.oomph.setup.p2,1.8.0.v20170318-0419,"org.eclipse.oomph.setup.p2",1506599627019
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506599628003
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506599631660
+error,log,,,"An internal error has occurred.",1506599631691
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506599631785
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506599635316
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506600679050
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506600682028
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506600684180
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506602341848
+opened,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506602348523
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506602348773
+started,bundle,org.eclipse.debug.ui,3.12.0.v20170605-1534,"org.eclipse.debug.ui",1506603380837
+started,bundle,org.eclipse.wst.jsdt.core,1.1.102.v201111090634,"org.eclipse.wst.jsdt.core",1506603381650
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.300.v201104272153,"org.eclipse.wst.jsdt.manipulation",1506603381744
+started,bundle,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui",1506603381759
+started,bundle,org.eclipse.wst.server.core,1.1.304.v20120208_1420,"org.eclipse.wst.server.core",1506603381884
+started,bundle,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui",1506603381915
+started,bundle,org.eclipse.jdt.debug,3.11.0.v20170510-1451,"org.eclipse.jdt.debug",1506603382009
+started,bundle,org.eclipse.jdt.debug.ui,3.8.1.v20170826-0709,"org.eclipse.jdt.debug.ui",1506603382197
+started,bundle,org.eclipse.wst.web,1.1.501.v201201190400,"org.eclipse.wst.web",1506603383566
+started,bundle,org.eclipse.wst.common.frameworks,1.2.201.v201707201954,"org.eclipse.wst.common.frameworks",1506603383660
+started,bundle,org.eclipse.wst.common.emf,1.2.500.v201701191735,"org.eclipse.wst.common.emf",1506603383707
+started,bundle,org.eclipse.jem.util,2.1.201.v201707201954,"org.eclipse.jem.util",1506603383738
+started,bundle,org.eclipse.wst.common.emfworkbench.integration,1.2.101.v201107081800,"org.eclipse.wst.common.emfworkbench.integration",1506603383738
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.201.v201201101553,"org.eclipse.wst.common.project.facet.core",1506603383738
+started,bundle,org.eclipse.wst.common.core,1.2.0.v200908251833,"org.eclipse.wst.common.core",1506603383785
+started,bundle,org.eclipse.wst.common.modulecore,1.3.0.v201705041406,"org.eclipse.wst.common.modulecore",1506603383785
+started,bundle,org.eclipse.jst.common.project.facet.core,1.4.200.v201103170302,"org.eclipse.jst.common.project.facet.core",1506603383863
+started,bundle,org.eclipse.m2e.launching,1.8.1.20170728-1531,"org.eclipse.m2e.launching",1506603384388
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.2.0.v20170322-1054,"org.eclipse.jdt.apt.pluggable.core",1506603384998
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506603387045
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506603531017
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506603533657
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506603542798
+activated,view,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.PackageExplorer",1506603542864
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506603561458
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506603607253
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506603664318
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506610687412
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.300.v201108240515,"org.eclipse.wst.ws.service.policy.ui",1506610690178
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.303.v201009221810,"org.eclipse.wst.ws.service.policy",1506610690209
+started,bundle,org.eclipse.eclemma.core,3.0.0.201706140232,"org.eclipse.eclemma.core",1506610723618
+started,bundle,org.eclipse.eclemma.ui,3.0.0.201706140232,"org.eclipse.eclemma.ui",1506610723649
+activated,view,org.eclipse.ui.console,3.7.1.v20170728-0806,"org.eclipse.ui.console.ConsoleView",1506610737305
+activated,view,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.PackageExplorer",1506610739540
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506610747821
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506610760914
+opened,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506610761211
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506610761352
+started,bundle,org.eclipse.jdt.junit,3.10.0.v20170208-1347,"org.eclipse.jdt.junit",1506610765274
+started,bundle,org.eclipse.recommenders.rcp,2.4.10.v20170911-1410,"org.eclipse.recommenders.rcp",1506610854694
+started,bundle,org.eclipse.recommenders.chain.rcp,2.4.10.v20170911-1410,"org.eclipse.recommenders.chain.rcp",1506610854757
+started,bundle,org.eclipse.recommenders.apidocs.rcp,2.4.10.v20170911-1410,"org.eclipse.recommenders.apidocs.rcp",1506610854819
+started,bundle,org.eclipse.mylyn.java.ui,3.23.0.v20170411-2108,"org.eclipse.mylyn.java.ui",1506610855538
+started,bundle,org.eclipse.pde.api.tools,1.0.301.v20111129-2053,"org.eclipse.pde.api.tools",1506610856022
+started,bundle,org.eclipse.pde.api.tools.ui,1.0.301.v20110803_r371,"org.eclipse.pde.api.tools.ui",1506610856022
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color",1506610883759
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color ",1506610884775
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +",1506610885619
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""",1506610888822
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\",1506610889900
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\n",1506610890525
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nT",1506610895212
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nTy",1506610895509
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nTyp",1506610896165
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType",1506610896478
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType:",1506610897353
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ",1506610898119
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: """,1506610899119
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+",1506610900259
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ ",1506610900650
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ T",1506610901119
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ Ty",1506610901337
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ T",1506610902416
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ ",1506610902619
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ t",1506610903712
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ ty",1506610903869
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ typ",1506610904103
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ type",1506610904353
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ type ",1506610907431
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ type +",1506610908416
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ type + ",1506610910791
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ type + """,1506610911213
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ type + ""Y",1506610912728
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ type + ""Ye",1506610912931
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ type + ""Yea",1506610913134
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ type + ""Year",1506610913291
+error,log,,,"Error retrieving proposal text.\nDisplay string:\nCode Recommenders is enabled\nPattern:\nout.println(""Color: "" + color +""\\nType: ""+ type + ""Year:",1506610916968
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506611068496
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506611071668
+activated,view,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.PackageExplorer",1506611105329
+started,bundle,org.eclipse.mylyn.context.ui,3.23.0.v20170414-0629,"org.eclipse.mylyn.context.ui",1506611111719
+opened,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611111922
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611112079
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611134417
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.edit.undo",1506611183986
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.edit.undo",1506611184480
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.edit.undo",1506611184933
+activated,view,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.PackageExplorer",1506611284167
+opened,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611284449
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611284605
+activated,view,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.PackageExplorer",1506611288183
+opened,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611288496
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611288621
+activated,view,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.PackageExplorer",1506611292152
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611292433
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611302871
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611365311
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611397810
+opened,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611399545
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611399639
+activated,view,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.PackageExplorer",1506611404467
+opened,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611405607
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611405732
+activated,view,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.PackageExplorer",1506611430085
+opened,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611430413
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611430570
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611438663
+executed,command,org.eclipse.ui.workbench.texteditor,3.10.100.v20170426-2021,"org.eclipse.ui.edit.text.toggleOverwrite",1506611482045
+executed,command,org.eclipse.ui.workbench.texteditor,3.10.100.v20170426-2021,"org.eclipse.ui.edit.text.toggleOverwrite",1506611484463
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506611667604
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506611669432
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506611669620
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506611671166
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611707686
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611722485
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.edit.cut",1506611767503
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.edit.paste",1506611773613
+activated,view,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.PackageExplorer",1506611931261
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506611939607
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506611952998
+opened,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611953154
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611953295
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611957982
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.edit.cut",1506611963951
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611968358
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.edit.paste",1506611971265
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.file.saveAll",1506611975051
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506611977398
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.file.saveAll",1506612040279
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506612059945
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506612123872
+activated,view,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.PackageExplorer",1506612125529
+opened,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506612199984
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506612200141
+activated,view,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.PackageExplorer",1506612263239
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506612303835
+activated,view,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.PackageExplorer",1506612337415
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506612472127
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506612484494
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506612487002
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506612490241
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.edit.delete",1506612592661
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.edit.delete",1506612593989
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.file.saveAll",1506612647637
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.file.save",1506612682078
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.file.save",1506612694062
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506612780690
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506612839949
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613139737
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613221503
+executed,command,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.edit.text.java.toggle.comment",1506613229699
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613235746
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613245993
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613300107
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613300232
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.file.save",1506613307638
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613317054
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613430762
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.file.saveAll",1506613443237
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.edit.copy",1506613463613
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.edit.paste",1506613464988
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.edit.delete",1506613467441
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613472254
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613474223
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613483318
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613485180
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613500634
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613590274
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.file.save",1506613635798
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613647785
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613793985
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613845951
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613865327
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.edit.copy",1506613917808
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.edit.paste",1506613922745
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613925699
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613926542
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.file.save",1506613934615
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506613971188
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506690311668
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506690364081
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506690708201
+activated,view,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.PackageExplorer",1506690720106
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506690729416
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506690745250
+opened,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506690745638
+activated,editor,org.eclipse.jdt.ui,3.13.1.v20170822-1011,"org.eclipse.jdt.ui.CompilationUnitEditor",1506690745883
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.edit.paste",1506690751547
+executed,command,org.eclipse.ui,3.109.0.v20170411-1742,"org.eclipse.ui.file.save",1506690845225
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506690847186
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506690847746
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506690862829
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506690898154
+deactivated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506690937657
+activated,workbench,org.eclipse.ui.workbench,3.110.1.v20170704-1208,"",1506697973802

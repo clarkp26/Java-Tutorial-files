@@ -1,0 +1,34 @@
+
+public class BasicJavaTest {
+
+	public static void main(String[] args) {
+		String ans = "";
+		String ans2 = "";
+		String ans3 = "";
+		String ans4 = "";
+		String one = "Hacker";
+		String two = "Rank";
+		String[] arrOne = one.split("");
+		String[] arrTwo = two.split("");
+		for (int i=0;i<arrOne.length;i++) {
+			if(i%2 != 0) {
+				ans = ans + arrOne[i];
+			}
+			else {
+				ans2 = ans2+ arrOne[i];
+			}
+		}
+		for (int i=0;i<arrTwo.length;i++) {
+			if(i%2 != 0) {
+				ans4 = ans4 + arrTwo[i];
+			}
+			else {
+				ans3 = ans3+ arrTwo[i];
+			}
+		}
+
+		System.out.println(ans2+" " +ans);
+		System.out.println(ans4+" " +ans3);
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;dog.gif&apos; to &apos;Darren_Assignment7/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Swing&apos;&#x0D;&#x0A;- Destination element: &apos;Darren_Assignment7/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;dog.gif&apos;" description="Copy file" destination="=Darren_Assignment7/src&lt;" element1="src/dog.gif" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1523283127471" units="0" version="1.0"/>
+</session>

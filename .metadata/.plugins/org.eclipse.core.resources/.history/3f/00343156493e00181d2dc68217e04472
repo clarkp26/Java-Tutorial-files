@@ -1,0 +1,67 @@
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+
+import javax.swing.*;
+
+@SuppressWarnings("serial")
+public class RectangleComponent extends JComponent implements MouseListener {
+
+	private int width,height;
+	private Color color;
+	
+	RectangleComponent(int h,int w,Color c){
+		height = h;
+		width = w;
+		color = c;
+		this.addMouseListener(this);
+	}
+	public void paintComponent(Graphics g) {
+		g.setColor(color);
+		g.fillRect(1,1,height,width);
+		g.setColor(Color.GRAY);
+	}
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("Rectangle Component");
+		RectangleComponent rcomp = new RectangleComponent(100,200,Color.WHITE);
+		frame.add(rcomp);
+		frame.setSize(300,300);
+		frame.setVisible(true);
+
+	}
+	@Override
+	public void mouseClicked(MouseEvent e) {
+//		if(color.equals(Color.BLACK)) {
+//			color = Color.WHITE;
+//		}
+//		else
+//			color = Color.BLACK;
+		if(color==(Color.BLACK)) {
+			color = Color.WHITE;
+		}
+		else
+			color = Color.BLACK;
+		
+	}
+	@Override
+	public void mouseEntered(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void mouseExited(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void mousePressed(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void mouseReleased(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

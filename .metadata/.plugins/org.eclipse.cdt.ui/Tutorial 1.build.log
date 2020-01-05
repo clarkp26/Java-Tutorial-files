@@ -1,0 +1,7 @@
+09:29:54 **** Incremental Build of configuration Debug for project Tutorial 1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tutorial 1.o" "..\\src\\Tutorial 1.cpp" 
+g++ -o "Tutorial 1.exe" "src\\Tutorial 1.o" 
+
+09:29:56 Build Finished (took 1s.235ms)
+

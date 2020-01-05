@@ -1,0 +1,247 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.*;
+
+
+public class TreeSet<T extends Comparable<T>> implements Iterable<T> {
+	
+	private static class Node<T> { // node of binary search tree
+		private T item; 	// data item (must supply compareTo())
+		private Node<T> left, right; //left and right subtrees
+	    
+		Node(T item0, Node<T> left0, Node<T> right0)  {
+			item = item0; left = left0; right = right0;
+		}
+	}
+	
+	private Node<T> root = null; // root of tree encoding the set	
+	private int numItems = 0; // size of set (= number of  nodes)
+
+
+	public boolean add(T t) { 
+		int numItems0 = numItems; // initial number of nodes
+		root = add(root,t);  // catering for possible new root
+		//Node<T> p = root;
+		//System.out.println(p.right.item);
+		return (numItems0<numItems); 
+	} 
+	    
+	private Node<T> add(Node<T> p, T t) { 
+		// add t (if not present) to binary search tree rooted at p
+		// & return root of new tree (which is usually p)
+		if (p==null) { // tree empty 
+			numItems++;
+			return new Node<T>(t,null,null);
+		}
+		else if ((p.item).compareTo(t)>0) {// t small, so add on left 		
+			p.left = add(p.left,t);// note possible new p.left 
+			return p;
+		}
+		else if (t.compareTo(p.item)>0) { // t big, so add on right 	
+			p.right = add(p.right,t); // note possible new p.right
+			return p;
+
+		}
+		else // t present in node p, so no change 
+			return p;
+	}
+
+	public boolean remove(T t) {
+		int numItems0 = numItems; // initial number of nodes
+		root = remove(root,t); // note catering for possible new root
+		return (numItems<numItems0);
+	}
+
+	private Node<T> remove(Node<T> p, T t) {
+	// remove t (if  present) from binary search tree rooted at p
+	// & return root of new tree
+		if (p==null) // tree empty, so can't remove t 
+			return p;
+		else if ((p.item).compareTo(t)>0) {//t small so remove on left 
+			p.left = remove(p.left,t); // note possible new p.left
+			return p;
+		}
+		else if ((p.item).compareTo(t)>0) {// t big so remove on right 
+			p.right = remove(p.right,t); // note possible new p.right
+			return p;
+		}
+		else { // t in node p: remove node p & merge its two subtrees
+			numItems--;
+			return mergeTrees(p.left,p.right);			
+		}
+	} 
+
+	private Node<T> mergeTrees(Node<T> p, Node<T> q) {
+		if (q==null) // trivial case: tree q is empty
+			return p;
+		else if (q.left==null) { //easy case: q has empty left subtree
+			q.left = p; // make tree p the left subtree of q
+			return q;
+		}
+		else { // general case: tree q has non-empty left subtree
+			// locate leftmost node in tree q 
+			Node<T> ptr = q.left; 
+			Node<T> ptrParent = q; // always ptrParent.left = ptr
+			while (ptr.left!=null) {
+				ptrParent = ptr;
+				ptr = ptr.left;
+			}
+			// ptr is leftmost node in tree q (i.e. with least value)
+			ptrParent.left = ptr.right; // detach node ptr from tree q
+			ptr.left = p;
+			ptr.right = q; // node ptr becomes new root
+			return ptr;
+		}
+	}
+	private ArrayList<T> toList() { 
+		ArrayList<T> items = new ArrayList<T>();
+		preOrder(root,items);
+		return items;
+	}
+
+	private void inOrder(Node<T> p, ArrayList<T> items) {
+		if (p!=null) {
+			inOrder(p.left, items);
+			items.add(p.item);
+			inOrder(p.right, items);
+		}
+	}
+	
+	private void preOrder(Node<T> p, ArrayList<T> items) {
+		if (p!=null) {
+			items.add(p.item);
+			preOrder(p.left, items);
+			
+			preOrder(p.right, items);
+			
+		}
+	}
+	private void postOrder(Node<T> p, ArrayList<T> items) {
+		if (p!=null) {
+			
+			preOrder(p.left, items);
+			
+			preOrder(p.right, items);
+			items.add(p.item);
+		}
+	}
+	public String toString() {
+		return toList().toString();
+	}
+
+	public Iterator<T> iterator() {
+		return toList().iterator();
+	}
+
+	
+	public T first(){
+		Node<T> p = root;
+		while(p!=null){
+			if(p.left==null){
+				return p.item;
+			}
+			p=p.left;
+		}
+		
+		
+		return null;
+	}
+	
+	private int count =0;
+	//private Node<T> p = root;
+	
+	public int height(Node<T> p){
+		   if(p==null)
+	        {
+	            return count;
+	        }
+		 else{
+			 if(p.left!=null || p.right!=null){
+				 count++;
+				 height(p.left);
+				height(p.right);
+			    
+		 }
+		}
+			 return count;	
+	}
+	
+	public int height(){
+		int height = 0;
+		Node<T> p = root;
+		Node<T> t = root;
+		
+		while(p.left!=null || p.right!=null){
+			height++;
+			p = p.left;
+			t=t.right;
+			if(p.left!=null || p.right!=null
+					||t.left!=null || t.right!=null){
+				height++;
+			}
+		}
+		return height;
+	}
+	
+	public T pollFirst(){
+		Node<T> p = root;
+		if(p.item==null){
+			return null;
+		}
+		while(p.left!=null){
+			p=p.left;
+			if(p.left==null){
+				T x = p.item;
+				remove(p.item);
+				return x;
+			}
+		}
+		return null;
+	}
+	private int dif=0;
+	private Node<T> k = root;
+	
+	public int count(T lo, T hi){
+		
+		if (k==null){
+			
+			return 10;
+		}
+		//else{
+			if (k.left.item.compareTo(lo)>0){
+			dif++;
+			k=k.left;
+			if(k.left.item.compareTo(lo)<0){
+				return dif;
+			}
+			count(lo,hi);
+			}
+		//}
+	
+		return dif;
+	}
+	public static void main(String[] args) {
+		TreeSet<Integer> x = new TreeSet<>();
+		x.add(3);
+		x.add(2);
+		x.add(1);
+		x.add(5);
+		x.add(4);
+		x.add(7);
+		x.add(6);
+		x.add(8);
+		//x.add(9);
+		
+		Node p = x.root;
+		//System.out.println(x.height(p));
+		//System.out.println(x.pollFirst());
+		//System.out.println(x.count(1,7));
+		//Node p = x.root;
+		System.out.println(x.height());
+		
+			//System.out.println(x.toString());
+	
+		
+	}
+
+}

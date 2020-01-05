@@ -1,0 +1,79 @@
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+
+import javax.swing.*;
+
+@SuppressWarnings("serial")
+public class RectangleComponent extends JComponent implements MouseListener {
+
+	private int width,height;
+	private Color color;
+	
+	RectangleComponent(int h,int w,Color c){
+		height = h;
+		width = w;
+		color = c;
+		//Question 2
+		this.addMouseListener(this);
+	}
+//	public void paintComponent(Graphics g) {
+//		g.setColor(color);
+//		g.fillRect(1,1,height,width);
+//		g.setColor(Color.GRAY);
+//	}
+	public void paintComponent(Graphics g) {
+		for (int i=0; i<20; i++) {
+		for (int j=0; j<20; j++) {
+		if ((i+j) % 2 == 0)
+		g.setColor(Color.WHITE);
+		else
+		g.setColor(Color.BLACK);
+		g.fillRect(20*i+1,20*j+1,20,20);
+		}
+		}
+		}
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("Rectangle Component");
+		RectangleComponent rcomp = new RectangleComponent(100,200,Color.WHITE);
+		frame.add(rcomp);
+		
+//		Question 1 and 2
+		frame.setSize(400,400);
+//		Question 3
+//		frame.pack();
+		frame.setVisible(true);
+
+	}
+	@Override
+	public void mouseClicked(MouseEvent e) {
+	}
+	@Override
+	public void mouseEntered(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void mouseExited(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	//Question 2
+	public void mousePressed(MouseEvent e) {
+		if(color.equals(Color.WHITE)) {
+			color = Color.BLACK;
+			this.repaint();		
+		}
+		else if(color.equals(Color.BLACK)){
+			color = Color.WHITE;
+			this.repaint();
+	}
+	}
+	@Override
+	public void mouseReleased(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

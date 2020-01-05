@@ -1,0 +1,28 @@
+
+public class Car {
+protected static int CarNumber = 10000;
+protected String color,type;
+protected int year;
+
+public Car(String c,String t, int y) {
+	
+	color = c;
+	type =t;
+	year =y;
+	CarNumber++;
+}
+
+public void display() {
+	System.out.println("Color: " + color +"\nType: "+ type + "\nYear: " + year + "Car Number"+ CarNumber);
+}
+
+	public static void main(String[] args) {
+		Car one = new Car("Blue","Honda",2009);
+		one.display();
+		Jeep two = new Jeep("Red","Toyota",2011,true);
+		two.display();
+
+	}
+
+}
+

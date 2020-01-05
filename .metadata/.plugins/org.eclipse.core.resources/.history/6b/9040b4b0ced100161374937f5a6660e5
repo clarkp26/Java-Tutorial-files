@@ -1,0 +1,18 @@
+
+public class Q6 {
+
+//	private int count =0;
+	
+public static int lotteryNumbers(){
+	int x = (int)Math.random()*((11-1)+1);
+	return x;
+	
+}
+	
+	public static void main(String[] args) {
+		System.out.println(lotteryNumbers());
+	
+	}
+}
+
+

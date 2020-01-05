@@ -1,0 +1,35 @@
+
+public class Car {
+protected String color,type;
+protected int year;
+
+public Car(String c,String t, int y) {
+	color = c;
+	type =t;
+	year =y;
+}
+
+public void display() {
+	System.out.println("Color: " + color +"\nType: "+ type + "\nYear: " + year);
+}
+public class Jeep extends Car{
+	private boolean FourWheelDrive;
+	
+	public Jeep(String c, String t, int y, boolean f) {
+		super(c,t,y);
+		FourWheelDrive = f;
+	}
+	public void display() {
+		super.display();
+		System.out.println("Is there four wheel drive: " + FourWheelDrive);
+	}
+}
+	public static void main(String[] args) {
+		Car one = new Car("Blue","Honda",2009);
+		one.display();
+		Jeep two = new Jeep("Red","Toyota",2011,true);
+		two.display();
+
+	}
+
+}

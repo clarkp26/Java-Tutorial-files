@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Exercise1.java&apos; to &apos;Tutorial4/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Elementary Java&apos;&#x0D;&#x0A;- Destination element: &apos;Tutorial4/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;Exercise1.java&apos;" description="Copy compilation unit" destination="=Tutorial4/src&lt;" element1="/src&lt;{Exercise1.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1483452464862" units="1" version="1.0"/>
+</session>

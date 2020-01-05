@@ -1,0 +1,56 @@
+import java.util.Scanner;
+
+public class BasicJavaTest {
+
+	public static void EvenOdd(String s) {
+		String[] Arr = s.split("");
+		String ans = "";
+		String ans2 = "";
+		for (int i=0;i<Arr.length;i++) {
+			if(i%2 != 0) {
+				ans = ans + Arr[i];
+			}
+			else {
+				ans2 = ans2+ Arr[i];
+			}
+		}
+		System.out.println(ans2 + " " + ans);
+	}
+	public static void BinaryChange(int n) {
+		double base = 2;
+		double power = 0;
+		String ans = "";
+		while(true) {
+			if (n/(Math.pow(base, power)) >= 1) {
+				power++;
+			}
+			else {
+				break;
+			}
+		}
+		
+//		System.out.println(power);
+		for(int i=(int) power-1; i>=0;i--) {
+			if(n/Math.pow(base, i) >= 1.0){
+				ans = ans + "1";
+				n = (int) (n - Math.pow(base, i));
+			}
+			else {
+				ans = ans + "0";
+			}
+			
+		}
+		System.out.println(ans);
+	}
+	public static void main(String[] args) {
+//		Scanner in= new Scanner(System.in);
+//        int n = in.nextInt();
+//		String one = "Hacker";
+//		String two = "Rank";
+//	
+//		EvenOdd(one);
+//		EvenOdd(two);
+		BinaryChange(13);
+	}
+
+}

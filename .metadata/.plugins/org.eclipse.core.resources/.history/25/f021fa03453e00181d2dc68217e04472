@@ -1,0 +1,28 @@
+import java.awt.*;
+
+import javax.swing.*;
+
+public class RectangleComponent extends JComponent {
+
+	private int width,height;
+	private Color color;
+	private JFrame frame;
+	
+	RectangleComponent(int h,int w,Color c){
+		height = h;
+		width = w;
+		color = c;
+	}
+	public void paintComponent(Graphics g) {
+		g.setColor(color);
+		g.fillRect(1,1,height,width);
+	}
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("Rectangle Component");
+		frame.add(new RectangleComponent(10,10,Color.RED));
+		frame.setSize(300,300);
+		frame.setVisible(true);
+
+	}
+
+}

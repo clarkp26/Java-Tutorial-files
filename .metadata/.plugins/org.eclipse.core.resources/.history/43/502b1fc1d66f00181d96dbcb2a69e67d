@@ -1,0 +1,116 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class SortingAlgorithms {
+
+	public static void quicksort(int[] array) {
+		quicksort(array,0, array.length-1);
+	}
+	public static void quicksort(int[] array,int left,int right) {
+		if (left >= right) {
+			return;
+		}
+		int pivot = array[left+(right-left)/2];
+		int index = partition(array, left, right,pivot);
+		quicksort(array,left,index-1);
+		quicksort(array,index,right);
+	}
+	
+	public static int partition(int[] array,int left, int right,int pivot) {
+		while (left <=right) {
+			while(array[left]< pivot) {
+				left++;
+			}
+			while(array[right] > pivot) {
+				right--;
+			}
+			if (left<=right) {
+//				swap(array, left,right);
+				int leftval = array[left];
+				int rightval = array[right];
+				array[left] = rightval;
+				array[right] = leftval;
+				left++;
+				right--;
+			}
+		}
+		return left;
+	}
+	
+	public static void BubbleSort(int a[]) {
+		int c = 0;
+		for(int i=0;i<a.length;i++) {
+		    for(int j=0;j<a.length-1;j++) {
+		    	if(a[j]>a[j+1]) {
+		    		int tmp = a[j];
+		    		a[j] = a[j+1];
+		    		a[j+1] = tmp;
+		    		c++;
+		    	}
+		    }
+		}
+		for(int i=0;i<a.length;i++) {
+			System.out.print(a[i]+" ");
+		}
+		System.out.println("\n"+c);
+		
+	}
+	
+	public static void mergeSort(int arr[],int low,int high) {
+		int size = arr.length;
+		if(low<high) {
+		int middle = (low+high)/2;
+		mergeSort(arr,low,middle);
+		mergeSort(arr,middle+1,high);
+		mergerSort(arr,low,middle,high);
+		}
+		else {
+		for(int i=0;i<size;i++) {
+			System.out.print(arr[i] + " ");
+		}
+		}
+	}
+	public static void mergerSort(int[] arr, int low, int middle, int high) {
+		int[] tmp = new int[arr.length];
+		for (int i=0;i<arr.length;i++) {
+			tmp[i] = arr[i];
+		}
+		int i = low;
+		int j = middle+1;
+		int k = low;
+		
+		while(i <=middle && j <= high) {
+			if(tmp[i] < tmp[j]) {
+				arr[k]=tmp[i];
+				i++;
+			}
+			else {
+				arr[k] = tmp[j];
+				j++;
+			}
+			k++;
+		}
+		while (i <=middle) {
+			arr[k]  = tmp[i];
+			i++;
+			k++;
+		}
+		
+	}
+	public static void main(String[] args) {
+		int[] x = {9,8,7,6,5,4,3,2,1};
+		int low = 0;
+		int high = 8;
+//		quicksort(x);
+//		for(int i=0;i<x.length;i++) {
+//			System.out.print(x[i]+" ");
+//		}
+//		BubbleSort(x);
+		mergeSort(x,low,high);
+
+	}
+
+}

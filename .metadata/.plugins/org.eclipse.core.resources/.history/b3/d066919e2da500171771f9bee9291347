@@ -1,0 +1,29 @@
+
+public class Cards {
+private String suit;
+private String rank;
+private Cards[] deck;
+
+public Cards(String r, String s) {
+	rank = r;
+	suit = s;
+}
+
+public boolean add(Cards a) {
+	deck[deck.length+1] = a;
+	return true;
+}
+public void display() {
+	for (int i=0;i<deck.length;i++) {
+		System.out.println( deck[i].rank + " of " + deck[i].suit + "\n");
+	}
+}
+	public static void main(String[] args) {
+	Cards one = new Cards("Queen","Diamonds");
+	Cards two = new Cards("Five","Spades");
+	Cards three = new Cards("Ace","Hearts");
+	add(one);
+
+	}
+
+}

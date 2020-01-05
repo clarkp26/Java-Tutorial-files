@@ -1,0 +1,57 @@
+09:09:04 **** Rebuild of configuration Debug for project Tutorial 1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tutorial 1.o" "..\\src\\Tutorial 1.cpp" 
+g++ -o "Tutorial 1.exe" "src\\Tutorial 1.o" 
+Info: Nothing to build for Tutorial 1
+09:09:33 **** Incremental Build of configuration Debug for project Tutorial 1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tutorial 1.o" "..\\src\\Tutorial 1.cpp" 
+g++ -o "Tutorial 1.exe" "src\\Tutorial 1.o" 
+09:15:26 **** Incremental Build of configuration Debug for project Tutorial 1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question2.o" "..\\src\\Question2.cpp" 
+g++ -o "Tutorial 1.exe" "src\\Tutorial 1.o" "src\\Question2.o" 
+src\Question2.o: In function `main':
+C:\Users\Philip\Documents\C++ Files\Debug/../src/Question2.cpp:5: multiple definition of `main'
+src\Tutorial 1.o:C:\Users\Philip\Documents\C++ Files\Debug/../src/Tutorial 1.cpp:12: first defined here
+collect2.exe: error: ld returned 1 exit status
+09:16:42 **** Incremental Build of configuration Debug for project Tutorial 1 ****
+Info: Internal Builder is used for build
+g++ -o "Tutorial 1.exe" "src\\Tutorial 1.o" "src\\Question2.o" 
+src\Question2.o: In function `main':
+C:\Users\Philip\Documents\C++ Files\Debug/../src/Question2.cpp:5: multiple definition of `main'
+src\Tutorial 1.o:C:\Users\Philip\Documents\C++ Files\Debug/../src/Tutorial 1.cpp:12: first defined here
+collect2.exe: error: ld returned 1 exit status
+09:17:32 **** Incremental Build of configuration Debug for project Tutorial 1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tutorial 1.o" "..\\src\\Tutorial 1.cpp" 
+g++ -o "Tutorial 1.exe" "src\\Tutorial 1.o" 
+09:24:04 **** Incremental Build of configuration Debug for project Tutorial 1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\well.o" "..\\src\\well.cpp" 
+g++ -o "Tutorial 1.exe" "src\\well.o" "src\\Tutorial 1.o" 
+src\Tutorial 1.o: In function `main':
+C:\Users\Philip\Documents\C++ Files\Debug/../src/Tutorial 1.cpp:12: multiple definition of `main'
+src\well.o:C:\Users\Philip\Documents\C++ Files\Debug/../src/well.cpp:11: first defined here
+collect2.exe: error: ld returned 1 exit status
+09:26:04 **** Incremental Build of configuration Debug for project Tutorial 1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tutorial 1.o" "..\\src\\Tutorial 1.cpp" 
+g++ -o "Tutorial 1.exe" "src\\Tutorial 1.o" "src\\well.o" 
+src\well.o: In function `main':
+C:\Users\Philip\Documents\C++ Files\Debug/../src/well.cpp:11: multiple definition of `main'
+src\Tutorial 1.o:C:\Users\Philip\Documents\C++ Files\Debug/../src/Tutorial 1.cpp:12: first defined here
+collect2.exe: error: ld returned 1 exit status
+09:26:27 **** Incremental Build of configuration Debug for project Tutorial 1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tutorial 1.o" "..\\src\\Tutorial 1.cpp" 
+g++ -o "Tutorial 1.exe" "src\\Tutorial 1.o" 
+09:29:54 **** Incremental Build of configuration Debug for project Tutorial 1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tutorial 1.o" "..\\src\\Tutorial 1.cpp" 
+g++ -o "Tutorial 1.exe" "src\\Tutorial 1.o" 
+Info: Nothing to build for HelloWorld
+16:45:52 **** Rebuild of configuration Debug for project HelloWorld ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HelloWorld.o" "..\\src\\HelloWorld.cpp" 
+Command canceled

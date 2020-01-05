@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListQ {
+//	ArrayList<Integer> L = new ArrayList<>(400);
+//	
+//	public void insert(int x,int y) {
+//		L.add(y,x);
+//	}
+
+	public static void main(String[] args) {
+		ArrayList<Integer> L = new ArrayList<>(40);
+//		for(int i: L) {
+//			L.add(1);
+//		}
+		L.add(5,23);
+		for(int i: L) {
+			System.out.println(i);
+		}
+
+	}
+
+}

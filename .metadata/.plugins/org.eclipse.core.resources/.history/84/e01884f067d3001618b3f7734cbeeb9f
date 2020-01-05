@@ -1,0 +1,80 @@
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Question5 extends Frame implements ActionListener{
+
+	private TextField one,two,three,four,five,six,seven;
+	private Button Draw;
+	private Label one1,two2,three3,four4,five5,six6,seven7;
+	
+	public Question5(){   //constructor
+	super("Lottery Numbers Draw App");
+
+    this.setLayout(new FlowLayout());
+	one = new TextField(5);
+	two = new TextField(5);
+	three = new TextField(5);
+	four = new TextField(5);
+	five = new TextField(5);
+	six = new TextField(5);
+	seven = new TextField(5);
+//	AB.setEditable(false);
+	one1 = new Label("\n1:");
+	two2 = new Label("2:");
+	three3 = new Label("3:");
+	four4 = new Label("4:");
+	five5 = new Label("5:");
+	six6 = new Label("6:");
+	seven7 = new Label("7:");
+	Draw = new Button("Draw");
+	this.add(one1);
+	this.add(one);
+	this.add(two2);
+	this.add(two);
+	this.add(three3);
+	this.add(three);
+	this.add(four4);
+	this.add(four);
+	this.add(five5);
+	this.add(five);
+	this.add(six6);
+	this.add(six);
+	this.add(seven7);
+	this.add(seven);
+	this.add(Draw);
+	
+	
+	this.Draw.addActionListener(this);
+
+    this.pack();
+	this.setVisible(true);
+	}
+	public void actionPerformed(ActionEvent e){
+		
+		if (e.getActionCommand().equals("Draw")){
+			int nums[] = new int[7];
+			for(int i=0;i<5;i++){
+			    int x = (int)(Math.random()*((50-1)+1))+1;
+			    nums[i] = x;
+			}
+			for(int i=5;i<7;i++){
+				int x = (int)(Math.random()*((11-1)+1))+1;
+				nums[i] = x;
+				}
+			one.setText(""+nums[0]);
+			two.setText(""+nums[1]);
+			three.setText(""+nums[2]);
+			four.setText(""+nums[3]);
+			five.setText(""+nums[4]);
+			six.setText(""+nums[5]);
+			seven.setText(""+nums[6]);
+//			System.out.println("yeeeeeooo");
+		}
+	}
+	public static void main(String[] args) {
+    
+		new Question5();
+	}
+
+}

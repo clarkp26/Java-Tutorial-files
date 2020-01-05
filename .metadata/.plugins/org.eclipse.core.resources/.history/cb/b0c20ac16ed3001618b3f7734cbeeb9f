@@ -1,0 +1,91 @@
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Question5 extends Frame implements ActionListener{
+
+	private TextField PT,YR,CY,NS,SN,SID,TL,SEX,ADD;
+	private Button Store;
+	private Label pt,yr,cy,ns,sn,sid,tl,sex,add;
+	
+	public Question5(){   //constructor
+	super("DCU Student Records Browser");
+
+	Panel P = new Panel(new FlowLayout());
+//    P.setLayout();
+	PT = new TextField(13);
+	YR = new TextField(13);
+	CY = new TextField(13);
+	NS = new TextField(13);
+	SN = new TextField(13);
+	SID = new TextField(13);
+	TL = new TextField(13);
+	SEX = new TextField(13);
+	ADD = new TextField(13);
+//	AB.setEditable(false);
+	pt = new Label("Programme Title:");
+	yr = new Label("Year:");
+	cy = new Label("Calender Year:");
+	ns = new Label("Number Students:");
+	sn = new Label("Student Name:");
+	sid = new Label("Student ID:");
+	tl = new Label("Telephone:");
+	sex = new Label("Sex:");
+	add = new Label("Address:");
+	Store = new Button("Store");
+	P.add(pt);
+	P.add(PT);
+	P = new Panel(new FlowLayout());
+	P.add(yr);
+	P.add(YR);
+	P = new Panel(new FlowLayout());
+	P.add(cy);
+	P.add(CY);
+	this.add(ns);
+	this.add(NS);
+	this.add(sn);
+	this.add(SN);
+	this.add(sid);
+	this.add(SID);
+	this.add(tl);
+	this.add(TL);
+	this.add(sex);
+	this.add(SEX);
+	this.add(add);
+	this.add(ADD);
+	this.add(Store);
+	
+	
+	this.Store.addActionListener(this);
+
+    this.pack();
+	this.setVisible(true);
+	}
+	public void actionPerformed(ActionEvent e){
+		
+		if (e.getActionCommand().equals("Store")){
+//			int nums[] = new int[7];
+//			for(int i=0;i<5;i++){
+//			    int x = (int)(Math.random()*((50-1)+1))+1;
+//			    nums[i] = x;
+//			}
+//			for(int i=5;i<7;i++){
+//				int x = (int)(Math.random()*((11-1)+1))+1;
+//				nums[i] = x;
+//				}
+//			one.setText(""+nums[0]);
+//			two.setText(""+nums[1]);
+//			three.setText(""+nums[2]);
+//			four.setText(""+nums[3]);
+//			five.setText(""+nums[4]);
+//			six.setText(""+nums[5]);
+//			seven.setText(""+nums[6]);
+			System.out.println("yeeeeeooo");
+		}
+	}
+	public static void main(String[] args) {
+    
+		new Question5();
+	}
+
+}
